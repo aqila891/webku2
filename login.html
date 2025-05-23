@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Login - Travel Adventure</title>
+  <title>Login - Sekolah Hebat</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="login-box">
-    <h2>Login</h2>
-    <form>
-      <input type="text" placeholder="Username" required>
-      <input type="password" placeholder="Password" required>
-      <button type="submit">Login</button>
+  <div class="login-container">
+    <form class="login-box" onsubmit="event.preventDefault(); window.location.href='index.html';">
+      <h2>Login Siswa</h2>
+      <input type="text" placeholder="Nama Pengguna" required />
+      <input type="password" placeholder="Kata Sandi" required />
+      <button type="submit">Masuk</button>
+      <a href="index.html">← Kembali ke Beranda</a>
     </form>
-    <a href="index.html" class="btn back-btn">Back to Home</a>
   </div>
 </body>
 </html>
